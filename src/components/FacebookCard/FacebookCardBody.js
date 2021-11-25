@@ -5,7 +5,6 @@ import {
   Typography,
   Stack,
   Box,
-  List,
   ListItem,
   ListItemIcon,
   ListItemText,
@@ -13,6 +12,7 @@ import {
 } from "@mui/material";
 
 import CommentsSection from "./CommentsSection";
+import CommentBox from "./CommentBox";
 
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import CommentIcon from "@mui/icons-material/Comment";
@@ -64,6 +64,7 @@ const FacebookCardBoy = () => {
       </Box>
       <Divider />
       <CommentsSection />
+      <CommentBox />
     </CardContent>
   );
 };
